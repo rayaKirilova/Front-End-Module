@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Customer Details</legend>
+            <div>
+                <label>First Name</label>
+                <input type="text" placeholder="John" focused>
+            </div>
+            <div>
+                <label>Last Name</label>
+                <input type="text" placeholder="Doe">
+            </div>
+
+            <div>
+                <label>Male</label>
+                <input type="radio" name="gender">
+                <label>Female</label>
+                <input type="radio" name="gender">
+                <label>Other</label>
+                <input type="radio" name="gender">
+            </div>
+            <div>
+                <label>Prefered contact method:</label>
+                <label>Email</label>
+                <input type="radio" name="method">
+                <label>Phone</label>
+                <input type="radio" name="method">
+            </div>
+            <div>
+                <label>Email</label>
+                <input type="email" placeholder="your@email.com">
+            </div>
+            <div>
+                <label>Phone</label>
+                <input type="text" placeholder="+359887878787">
+            </div>
+            <div>
+                <label>Town</label>
+                <select>
+                    <option>Sofia</option>
+                    <option>Varna</option>
+                    <option>Burgas</option>
+                    <option>Vidin</option>
+                </select>
+            </div>
+            <div>
+                <label>Age</label>
+                <input type="number" min="18" max="70">
+            </div>
+            <div>
+                <label>Programming Language</label>
+                <input list="programmingLanguage">
+                <datalist id="programmingLanguage">
+                    <option value="Java">
+                    <option value="C#">
+                    <option value="JavaScript">
+                    <option value="Python">
+                </datalist>
+            </div>
+            <div>
+                <textarea placeholder="More information.." rows="5" cols="20"></textarea>
+            </div>
+            <div>
+                <input type="checkbox" checked>
+                <label>I agree the Terms and Conditions</label>
+            </div>
+            <div>
+                <button>Send</button>
+            </div>
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

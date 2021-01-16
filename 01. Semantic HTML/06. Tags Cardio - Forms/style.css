@@ -1,0 +1,12 @@
+fieldset {
+    background: rgb(219, 216, 216);
+    width: 50% ; 
+}
+
+legend {
+    font-weight: bold;
+}
+
+input {
+    margin: 5px;
+}
