@@ -1,0 +1,17 @@
+body {
+    font: 16px Helvetica, sans-serif ; 
+    line-height: 1.5;
+}
+
+h2 {
+    font: 1em Georgia, serif ; 
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+.container {
+    display: flex ;
+    max-width: 70vw;
+    margin: 0 auto ;
+    justify-content: space-between;
+}

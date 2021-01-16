@@ -1,0 +1,51 @@
+/*reset css including pseudo elements */
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 50px  ; 
+    background-color: #eeeeee;
+    font: 16px Georgia, serif; 
+}
+
+section.flex-layout {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    border: 2px solid black ; 
+    border-radius: 4px ; 
+    margin: 10px ; 
+    max-width: 25%; 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+}
+
+div p {
+    padding: 10px ; 
+}
+
+div p:nth-child(2){
+    flex-grow: 2;
+}
+
+
+div p:nth-child(3){
+    border-top: 2px solid grey ; 
+    padding-top: 8px ;
+}
+
+img {
+    width: 100% ;
+}

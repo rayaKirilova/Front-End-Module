@@ -1,0 +1,65 @@
+body {
+    margin: 50px ; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*styles for first section*/
+h3, p, aside {
+    border: 1px solid black ; 
+    padding: 20px ;
+    margin: 0 ; 
+    text-align: center;
+}
+
+aside.reminders {
+    flex-basis: 15%;
+}
+
+.days h3 {
+    border-right: none ; 
+}
+
+.workweek {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.workweek .days {
+    flex-grow: 1 ; 
+}
+
+.workweek
+    .week {
+        display: flex;
+    }
+
+div.week p{
+    padding-bottom: 80px ; 
+    flex-grow: 1 ; 
+    border-top: 0 ; 
+    border-right: 0 ;
+} 
+
+/*styles for second section*/
+section.weekdays {
+    display: flex;
+}
+.heading-weekend {
+    border-top: none ; 
+}
+
+aside.notes {
+    flex-basis: 15% ; 
+    border-top: none ; 
+}
+
+.weekdays .days {
+    flex-basis: 80% ; 
+    flex-grow: 1; 
+}
+
+.weekdays .week {
+    display: flex;
+}
+
+
+

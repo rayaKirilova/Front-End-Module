@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 ; 
+    background-color: #eeeeee;
+
+}
+
+section.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60% ; 
+    height: 100vh ; 
+}
+
+article {
+    display: flex;
+    overflow: hidden;
+    flex-basis: 12em ;
+    margin: 10px ;
+    border-radius: 12px ; 
+    box-shadow: -2px -2px 11px 2px rgba(122,122,122,0.48);
+}
+article img {
+    flex-basis: 100% ; 
+}
+
+article.second-photo {
+    flex-grow: 2;
+    border-right: 10px solid #7E0051 ; 
+    border-left: 10px solid #7E0051 ; 
+}

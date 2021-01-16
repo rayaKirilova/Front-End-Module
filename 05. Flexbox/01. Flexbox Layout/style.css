@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 ;
+    padding: 30px; 
+}
+
+header, main, aside, footer {
+    border: 2px solid rgb(189, 95, 118) ;
+    border-radius: 12px ; 
+    background-color: white ; 
+    box-shadow: 0px 0px 12px 0px rgba(156, 148, 148, 0.87);
+    margin: 20px ; 
+    padding: 20px;
+    flex-shrink: 1;
+}
+
+header, 
+    footer {
+    flex-basis: 100%;
+    flex-grow: 1;
+    min-height: 6em;
+}
+
+main, 
+    aside {
+        min-height: 10em;
+    }
+main {
+    flex-grow: 3;
+}
+
+aside {
+    flex-grow: 1;
+}
