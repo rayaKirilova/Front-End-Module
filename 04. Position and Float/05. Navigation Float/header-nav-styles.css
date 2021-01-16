@@ -1,0 +1,23 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+h1 {
+    margin: auto 0 ; 
+    padding-bottom: 10px ;
+    display: inline-block;
+}
+
+.header-nav ul {
+    margin: auto 0 ; 
+    color: green;
+}
+
+.header-ul li  {
+    display: inline-block;
+    padding: 5px 10px 0 10px ; 
+}
+

@@ -1,0 +1,36 @@
+@import 'https://use.fontawesome.com/releases/v5.10.2/css/all.css' ; 
+
+body {
+    margin: 0 ; 
+}
+
+section article {
+    display: flex;
+    justify-content: center; 
+    align-items: center ; 
+    padding-top: 200px;
+}
+
+.first-container, 
+    .second-container {
+        height: 100vh;
+    }
+
+article img {
+    width: 400px ;   
+}
+.first-container {
+    background: linear-gradient(90deg, rgba(29,105,157,1) 0%, rgba(60,188,160,1) 48%); 
+}
+
+.second-container {
+    background: linear-gradient(90deg, rgba(169,51,118,1) 0%, rgba(209,128,20,1) 47%);
+}
+
+i {
+    color: white ; 
+    margin-left: -20px;
+    align-self: flex-end;
+    margin-bottom: 3px;
+}
+

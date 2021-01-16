@@ -1,0 +1,14 @@
+@import 'https://use.fontawesome.com/releases/v5.10.2/css/all.css' ; 
+
+
+ul li {
+    text-decoration: none ;
+    display: inline-flex;
+    padding: 10px;
+}
+ ul li i {
+     padding: 8px  ; 
+     border-radius: 50% ; 
+     border: none ; 
+     background-color: #eeeeee ; 
+}

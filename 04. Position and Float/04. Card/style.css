@@ -1,0 +1,32 @@
+body {
+    font-family: Georgia, serif;
+    background: #eeeeee ; 
+    display: flex;
+    height: 100vh;
+}
+
+section {
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.87);
+    width: 300px ; 
+    margin: 70px auto ; 
+}
+
+article {
+    background: white ; 
+    padding: 10px 20px 20px 20px;
+
+}
+
+.card-image {
+    width: 300px ; 
+}
+
+.btn {
+    background: #019801 ; 
+    color: white ; 
+    border-radius: 3px ; 
+    padding: 6px 8px ; 
+    border: none ;  
+    margin-left: 160px ;  
+    outline: none ; 
+}
