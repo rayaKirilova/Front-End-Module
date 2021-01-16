@@ -1,0 +1,13 @@
+@import 'https://use.fontawesome.com/releases/v5.10.2/css/all.css' ; 
+
+body {
+    font-family: Helvetica, serif ; 
+}
+ul li {
+    list-style-type: none;
+}
+
+ul li i {
+    color: rgb(71, 66, 66);
+    margin-right: 8px ;
+}

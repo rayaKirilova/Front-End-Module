@@ -1,0 +1,37 @@
+@import 'https://use.fontawesome.com/releases/v5.10.2/css/all.css' ; 
+
+.green-btn {
+    background-color: #008000 ; 
+    outline: none;
+    color: white ; 
+    border-radius: 3px ; 
+    border: none ; 
+    padding: 10px 12px;
+}
+
+.green-btn i {
+    margin-right: 5px ; 
+}
+
+.green-btn:hover {
+    background-color: #803397 ; 
+    cursor: pointer;   
+}
+
+.orange-btn {
+    background-color: #FF8C00 ; 
+    outline: none;
+    color: white ; 
+    border-radius: 3px ; 
+    border: none ; 
+    padding: 10px 12px;
+}
+
+.orange-btn i {
+    margin-right: 5px ; 
+}
+
+.orange-btn:hover {
+    background-color: #1b6596 ; 
+    cursor: pointer;   
+}

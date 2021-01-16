@@ -1,0 +1,33 @@
+body {
+    background: #EEEEEE;
+    font: 16px Georgia sans-serif ; 
+    margin: 0 30px ; 
+
+}
+/*styles for header*/
+h1, h2 {
+    color: rgb(73, 84, 86) ; 
+}
+
+article {
+    display: inline-block;
+    width: 50% ; 
+    vertical-align: bottom;
+    margin-right: 20px;
+}
+
+aside {
+    display: inline-block;
+    vertical-align: top;
+    width: 30% ; 
+}
+
+ul li {
+    list-style: square ; 
+}
+
+/*styles for section*/
+img {
+    width: 60% ; 
+}
+

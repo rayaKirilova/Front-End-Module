@@ -1,0 +1,11 @@
+.first-container{
+    border: 4px dotted #68DBAB ; 
+    width: 30% ; 
+    height: 400px ; 
+    text-align: center;
+}
+
+.second-container {
+    border: 4px solid #0936CA ; 
+    padding: 1em;
+}

@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51) ;
+    margin: 0 30px ; 
+}
+
+ul li {
+    list-style: square;
+}
+
+img {
+    width: 400px ; 
+}

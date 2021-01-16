@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Lato&family=PT+Sans&display=swap');
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+/* styles for list*/
+.disc {
+    list-style-type: disc;
+}
+
+.circle {
+    list-style-type: circle;
+}
