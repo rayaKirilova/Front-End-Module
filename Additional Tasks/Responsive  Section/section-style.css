@@ -1,0 +1,100 @@
+@import 'https://use.fontawesome.com/releases/v5.10.2/css/all.css' ; 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    margin: 70px auto; 
+    font-family: 'Montserrat', sans-serif;
+    color: #5B6A86 ; 
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+@media all and  (max-width: 600px) { 
+    section {
+        display:flex ; 
+        flex-direction: column;
+    }
+    .benefit-wrapper {
+        margin-bottom: 30px ; 
+        align-self: center ; 
+    }
+    .price-wrapper {
+        align-self: center ; 
+    }
+    .price-wrapper p:nth-child(1){
+        margin-top:20px ; 
+    }
+    .price-wrapper button {
+        margin-bottom: 30px ; 
+    }
+   
+}
+
+.benefit-wrapper,
+    .price-wrapper {
+        box-sizing: border-box;
+        border-radius: 12px; 
+        box-shadow: 0px 4px 5px 1px rgba(145,145,145,0.7);
+}
+
+.benefit-wrapper {
+    background-color: #E2F2FF; 
+    padding: 30px ; 
+    margin: 10px ; 
+}
+.benefit-wrapper h2 {
+    margin: 0 ; 
+}
+
+.benefit-wrapper ul {
+    padding: 0 ;
+}
+.benefit-wrapper ul li {
+    list-style: none;
+    padding: 10px ; 
+}
+.benefit-wrapper ul li i {
+    margin-right: 10px ; 
+    color: #39A4FF ;
+}
+.price-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px ;
+    margin:10px ; 
+    border: 4px solid #39A4FF ; 
+    text-align: center;
+   
+}
+.price-wrapper p {
+    margin: 0;
+    padding: 10px ; 
+}
+.price {
+    color: #39A4FF ; 
+    font-size: 30px ;
+    font-weight: bold;
+}
+
+.price-wrapper button {
+    outline: none ; 
+    color: white ; 
+    background-color:  #39A4FF ; 
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px ; 
+    width: 50% ; 
+    align-self: center;
+    margin-top: 10px ; 
+    box-shadow: 0px 4px 5px 1px rgba(145,145,145,0.5);
+}
+
+.price-wrapper button:hover {
+    cursor: pointer;
+}
+
+

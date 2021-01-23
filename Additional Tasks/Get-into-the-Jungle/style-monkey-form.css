@@ -1,0 +1,100 @@
+@import 'https://use.fontawesome.com/releases/v5.10.2/css/all.css' ; 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    margin: 50px auto ; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(163,109,96,1) 0%, rgba(239,219,187,1) 50%);
+    font-family: 'Montserrat', sans-serif;
+    color: #5A6E80 ; 
+}
+
+.monkey-form-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 20px 50px ; 
+    border-radius: 12px ; 
+    background: white ; 
+    box-shadow: 0px 0px 15px 2px #6D6D6D;
+}
+.img-wrapper{
+    display: flex;
+    padding: 20px 30px ; 
+
+}
+img {
+    width: 250px; 
+    align-self: center ;
+}
+
+.form-wrapper {
+    display: flex ; 
+    flex-direction: column;
+    padding: 40px ; 
+}
+
+.email-pass-btn {
+    padding: 10px 20px ; 
+    margin-bottom: 10px ; 
+    width: 70% ; 
+    font-size: 12px; 
+    background-color: #E6E6E6 ;
+    border-radius: 20px  ; 
+    outline: none ; 
+    border: none ; 
+}
+
+.email-pass-btn i {
+    margin-right: 5px ; 
+    font-size: 14px ; 
+}
+
+.question {
+    margin-bottom: 5px ; 
+    font-weight: bold ; 
+    font-size: 16px ; 
+}
+
+.possible-answer {
+    list-style-type: none;
+    margin: 0 0 0 10px; 
+    padding: 5px 5px 5px 0 ; 
+    font-weight: bold ; 
+    font-size: 14px ; 
+    color: #b7b8b3 ; 
+}
+.possible-answer li i {
+    margin-right: 5px ; 
+}
+
+.btn {
+    padding: 10px 20px ; 
+    margin: 20px 0 ; 
+    border-radius: 20px  ; 
+    outline: none ; 
+    border: none ; 
+    background-color: #8E6B52 ; 
+    color: white ; 
+    font-weight: bold ; 
+}
+
+.pass-choice {
+    margin: 0 ; 
+    font-size: 12px ; 
+}
+
+.pass-choice span, 
+    .create-account {
+    text-decoration: underline;
+}
+.create-account {
+    text-align: center ;
+    font-size: 12px ; 
+}
+
+.create-account i {
+    margin-left: 5px ; 
+}
+
