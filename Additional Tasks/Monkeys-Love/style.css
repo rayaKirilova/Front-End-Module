@@ -1,0 +1,159 @@
+@import 'https://use.fontawesome.com/releases/v5.10.2/css/all.css' ; 
+
+body {
+    margin: 0 ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*header styles */
+header {
+    background-color: white;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: center ;
+    margin: 0 ; 
+    padding: 0;
+    
+}
+.nav-wrapper li {
+    margin: 10px ; 
+    list-style: none;
+    font-weight: bold ; 
+    font-size: 14px ; 
+    color: #F05F40 ; 
+}
+
+/* common styles */
+.img-wrapper, 
+    .orange-wrapper {
+        display: flex ; 
+        flex-direction: column;
+        justify-content: center;
+        color: white ; 
+        text-align: center;
+}
+
+.img-wrapper article,
+    .orange-wrapper article {
+    width: 60% ; 
+    align-self: center;
+}
+
+.img-wrapper h1, 
+    .orange-wrapper h3 {
+    margin: 0;
+    padding: 10px ; 
+}
+.img-wrapper hr, 
+    .orange-wrapper hr { 
+    width: 50px  ; 
+}
+
+/*image section styles */
+.img-wrapper {
+    height: 70vh ; 
+    background-image: url("../Monkeys-Love/img/header.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   
+}
+
+.img-wrapper h1 {
+    font-size: 20px;
+}
+
+.img-wrapper hr {
+    border: 1px solid #F05F40 ; 
+}
+
+.img-wrapper p {
+    padding: 10px ; 
+    color:  #E2E6EA ; ; 
+}
+
+/* orange section styles */
+.orange-wrapper {
+    background-color: #F05F40 ; 
+    padding-bottom: 20px ;
+}
+
+.orange-wrapper h3 {
+    padding-top: 20px ; 
+    font-weight: 200;
+}
+.orange-wrapper hr {
+    border: 1px solid white ; 
+}
+.orange-wrapper p {
+    padding: 10px 25px ; 
+    color: #E2E6EA ;
+}
+
+.orange-wrapper button {
+    border-radius: 20px ; 
+    border: none ; 
+    outline: none ; 
+    padding: 10px 20px ;
+    text-transform: uppercase;
+    font-weight: 800;
+    background-color: #E2E6EA ;   
+}
+
+.orange-wrapper button:hover {
+    cursor: pointer;
+}
+
+/* styles for mini articles section */
+.white-wrapper-with-mini-articles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: grey ; 
+}
+.white-wrapper-with-mini-articles h3{
+    font-weight: 300;
+    margin-top: 20px ; 
+}
+.white-wrapper-with-mini-articles hr {
+    width: 50px ; 
+    border: 1px solid #F05F40 ;    
+}
+
+.mini-articles {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20px ; 
+}
+
+.mini-articles article {
+    padding: 40px ; 
+    margin: 0 10px ; 
+}
+
+.mini-articles article i {
+    font-size: 40px;
+    color: #F05F40 ; 
+}
+
+/* styles for monkey images section */
+.monkey-images-wrapper {
+    display: flex;
+    justify-content: space-between ; 
+    padding: 0 30px ; 
+    border-top: 2px solid #F05F40 ; 
+    border-bottom: 2px solid #F05F40 ; ;
+}
+
+.monkey-images-wrapper img {
+    width: 400px ; 
+    border-left: 2px solid #F05F40 ; 
+    border-right: 2px solid #F05F40 ; 
+}
+
+/* footer styles */
+footer p {
+    text-align: center;
+    color: grey ; 
+} 
