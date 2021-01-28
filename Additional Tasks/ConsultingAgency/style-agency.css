@@ -1,0 +1,323 @@
+@import 'https://use.fontawesome.com/releases/v5.10.2/css/all.css' ; 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,900&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap');
+
+body {
+    margin: 0 ; 
+    font-family: 'Lato', sans-serif;
+}
+h1, h2, h3, h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* header styles */
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 70vh ; 
+    color: white ; 
+    background-image: url(../ConsultingAgency/images/Layer-759_02.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* styles for navigation */
+header nav {
+    align-self: center;
+}
+.nav-wrapper {
+    display: flex;
+    padding: 10px 40px ; 
+    background-color: rgba(186, 146, 94, 0.8);
+}
+
+.nav-wrapper li {
+    padding: 0 20px ; 
+    list-style: none;
+    font-size: 14px;
+}
+
+.header-article {
+    align-self: center;
+    margin-top: 30px ; 
+    padding-bottom: 20px ; 
+    width: 50% ; 
+    background: linear-gradient(310deg, rgba(8,8,32,0.7) 70%, rgba(255,255,255,0.7) 100%);
+}
+
+.header-article h1 {
+    font-size: 40px ; 
+    font-weight: bold;
+}
+
+.header-article p {
+    padding: 0 20px ; 
+    margin-bottom: 20px   ; 
+    text-align: center;
+    font-size: 20px ; 
+}
+
+.header-article button {
+    border-radius: 6px ; 
+    padding: 10px 20px ; 
+    border: 2px solid white ; 
+    outline: none ; 
+    color: white ; 
+    background-color: #080820; 
+}
+
+.header-article button:hover {
+    cursor: pointer;
+    border: none ;
+    font-weight: bold ; 
+    background-color: rgb(186, 146, 94) ; 
+    color: #080820; 
+}
+/* white wrapper styles */
+.white-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.white-wrapper h2 {
+    text-align: center;
+}
+
+.header-article button i {
+    padding-left: 3px ; 
+}
+
+.articles-wrapper,
+    .mini-articles {
+    display: flex;
+}
+.articles-wrapper{
+    flex-wrap: wrap;
+}
+.mini-articles {
+    flex-basis: 30% ; 
+    padding: 10px 20px ;
+}
+
+.mini-articles i {
+    border-radius: 50%;
+    padding: 10px;
+    height: 25px;
+    width: 50px ; 
+    font-size: 24px ;
+    text-align: center;
+    color: white ; 
+    background-color: black ;
+}
+
+.info {
+    padding-left: 20px ; 
+}
+.info h4 {
+    margin-bottom: 10px ; 
+    font-size: 14px ; 
+    font-weight: bold;
+}
+.info p {
+    margin-top: 10px; 
+}
+
+/* "transparency-background */
+.transparency-background{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 100%),
+    url(../ConsultingAgency/images/steel-bg.jpg) ;    
+    background-size:cover ; 
+}
+
+.transparency-background h2 {
+    width: 45% ; 
+    padding: 20px 0 ;
+    color: rgb(184, 135, 73) ; 
+    text-align: center;
+    align-self: center;
+}
+
+.transparency-background h2 span{
+    color: black ; 
+}
+
+/* traders section */
+.traders-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%),
+    url("../ConsultingAgency/images/background-choose-us.jpg");
+    background-size: cover ; 
+    color: white ; 
+}
+
+.traders-wrapper h2 {
+    align-self: center ;  
+    margin-top: 20px ; 
+}
+
+.traders-articles {
+    width: 70% ; 
+    align-self: center ; 
+    display: flex;
+    margin-top: 10px ; 
+}
+
+.traders-articles article {
+    margin: 20px ; 
+    padding: 20px ;
+    text-align: center;
+    border: 2px solid #BA925E ;
+}
+
+.traders-articles article:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.8) ; 
+    color: black ; 
+}
+
+.traders-articles article p {
+    font-size: 14px ;
+}
+
+/*COE info section*/
+.ceo-info-wrapper {
+    background-image: url("../ConsultingAgency/images/consulting-woman.jpg") ; 
+    background-size: cover ; 
+    display: flex ; 
+    justify-content: flex-end;
+    height: 70vh ; 
+}
+
+.ceo-article {
+    width: 30% ; 
+    margin: 30px 20px ;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.ceo-article p {
+    padding: 0 10px;
+}
+.ceo-article p span {
+    color: rgb(186, 146, 94) ; 
+}
+
+.blue-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 60% ; 
+    background-color: rgb(8, 8, 32); 
+    color: white ; 
+}
+
+.ceo-name {
+    margin-top: 0 ; 
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.job-position {
+    align-self:flex-end ; 
+    padding: 10px ; 
+    font-size: 14px ;
+    color: grey ; 
+}
+
+/* partners section */
+.partners-logos {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto ; 
+}
+
+.partners-logos li {
+    align-self: center ; 
+    list-style: none;
+}
+
+.partners-logos li img {
+    width: 100px ; 
+}
+
+/* footer styles */
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #080820 ; 
+    color: white ; 
+}
+
+.contacts {
+    margin-left: 25px ; 
+}
+.address,
+    .working-hours {
+        margin-bottom: 10px ; 
+}
+.contacts p {
+    margin: 0 ; 
+    font-size: 12px ;
+}
+.contacts p i {
+    padding-right: 3px ; 
+}
+
+.social-media-icons {
+    display: flex;
+}
+
+.social-media-icons li {
+    list-style: none;
+    margin: 8px; 
+}
+
+.social-media-icons li i {
+    border-radius: 50% ; 
+    width: 16px ; 
+    height: 16px ; 
+    padding: 6px ; 
+    background-color: grey ; 
+    color:rgb(8, 8, 32) ; 
+    text-align: center;
+}
+
+/* extra links navigation */
+
+.extra-links-navigation {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 40% ; 
+    color:rgb(184, 135, 73) ; 
+    font-size: 12px;
+}
+
+.extra-links-navigation li {
+    list-style: none;
+    padding-right: 5px;
+}
+
+/* footer widget */
+.instragram-widget {
+    width: 60% ; 
+    margin-left: 30px ; 
+}
+.widget-img {
+    display: flex;
+    flex-wrap: wrap;   
+    box-sizing: border-box;
+    width: 300px; 
+}
+
+.widget-img li {
+    align-self: flex-end;
+    flex-basis: 30% ;
+    padding: 2px ;
+    list-style: none;
+}
+.widget-img li img {
+    width: 80px; 
+}
