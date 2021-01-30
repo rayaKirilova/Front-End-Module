@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,900&family=Titillium+Web:wght@400;600&display=swap');
+@import 'https://use.fontawesome.com/releases/v5.10.2/css/all.css' ; 
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 50px ; 
+    padding: 10px ; 
+    height: 80vh ; 
+    width: 40vw ; 
+    border: 2px solid rgba(155, 151, 151, 0.4) ; 
+}
+label {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600 ; 
+}
+input {
+    padding: 10px ; 
+    font-family: 'Lato', sans-serif;
+}
+.line  {
+    margin-top: 10px ; 
+    display: flex;
+}
+
+.orange {
+    width: 10% ;
+    margin: 0 ;  
+    border: 1px solid #FCA900 ; 
+}
+
+.grey {
+    width: 90% ; 
+    margin: 0 ; 
+    border: 1px solid rgba(155, 151, 151, 0.4) ; 
+}
+
+.label-distance {
+    margin-top: 20px ;     
+}
+
+.orange-border-input {
+    margin-top: 10px ; 
+    border: 2px solid #FCA900 ; 
+}
+
+.weight-and-fragile,
+    .length-height-width {
+    display: flex;
+    justify-content: space-between;
+}
+.weight,
+    .fragile {
+    margin-top: 20px ; 
+    display: flex;
+    flex-direction: column;
+    width: 40% ; 
+}
+
+.label-weight,
+.label-fragile, 
+.label-length,
+.label-width,
+.label-height {
+        margin-bottom: 10px ; 
+}
+
+.weight input,
+.fragile input,
+.length input,
+.height input,
+.width input {
+        border: 2px solid #F2F2F2 ; 
+}
+.relative-input{
+    position: relative ; 
+    z-index: -1;
+}
+.fragile i {
+    position: absolute;
+    top: 35%;
+    right: 56%;
+    font-size: 14px ; 
+    color: #FCA900 ; 
+}
+
+.length,
+    .height,
+        .width {
+    margin-top: 20px ; 
+    display: flex;
+    flex-direction: column;
+    width: 30% ; 
+}
+
+.extra-services {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px ; 
+}
+
+.services {
+    margin: 0 20px 0 0  ; 
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.services i {
+    color: #FCA900 ;
+    margin-right: 5px ; 
+}
+
+.footer-line {
+    width: 100% ; 
+    margin-top: 20px ; 
+    border: 1px solid rgba(155, 151, 151, 0.4) ; 
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.price {
+    color: #FCA900 ;
+}
+

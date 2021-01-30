@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cargo Form</title>
+    <link rel="stylesheet" href="cargo-style.css">
+</head>
+
+<body>
+    <form>
+        <div class="line">
+            <hr class="orange">
+            <hr class="grey">
+        </div>
+        <label class="label-distance">DISTANCE (MI)*</label>
+        <input class="orange-border-input" type="text" placeholder="Enter Distance">
+
+        <div class="weight-and-fragile">
+            <div class="weight">
+                <label class="label-weight">WEIGHT (LB)</label>
+                <input type="text" placeholder="Enter Weight">
+            </div>
+
+            <div class="fragile">
+                <label class="label-fragile">FRAGILE</label>
+                <i class="fas fa-chevron-down"></i>
+                <input type="text" placeholder="No" class="relative-input">     
+            </div>
+        </div>
+
+        <div class="length-height-width">
+            <div class="length">
+                <label class="label-length">LENGTH (IN)</label>
+                <input type="text" placeholder="Length">
+            </div>
+
+            <div class="height">
+                <label class="label-height">HEIGHT (IN)</label>
+                <input type="text" placeholder="Height">
+            </div>
+
+            <div class="width">
+                <label class="label-width">WIDTH (IN)</label>
+                <input type="text" placeholder="10">
+            </div>
+        </div>
+
+        <div class="extra-services">
+            <label>EXTRA SERVICES:</label>
+            <p class="services"><i class="fas fa-circle"></i>Insurance</p>
+            <p class="services"><i class="far fa-circle"></i>Express Delivery</p>
+        </div>
+        <hr class="footer-line">
+        <div class="total">
+            <p>TOTAL:</p>
+            <p class="price">$ 00.00</p>
+        </div>
+    </form>
+</body>
+
+</html>
