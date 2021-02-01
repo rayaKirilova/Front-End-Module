@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import 'https://use.fontawesome.com/releases/v5.10.2/css/all.css' ; 
+
+body {
+    margin: 0 ; 
+    font-family: 'PT Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    color: #9C908F;
+    font-weight: bold ;
+}
+
+.header-nav,
+.login-side {
+    margin-top: 20px ; 
+    padding: 0 ;
+    display: flex;
+    justify-content: space-between;
+}
+.header-nav li,
+.login-side li {
+    list-style: none;
+}
+.header-nav {
+    margin-left: 40px ; 
+}
+.header-nav li {
+    padding: 10px 15px ; 
+}
+
+.shop {
+    color: #FA5B3D ; 
+}
+.shop i {
+    margin-left: 5px ; 
+    color: #FA5B3D ; 
+}
+.login-side {
+    margin-top: 30px ; 
+    margin-right: 40px ; 
+}
+.login-side li {  
+    margin-right: 10px ; 
+    padding-right: 5px ; 
+    border-right: 2px solid  rgba(156, 144, 143, 0.4);
+}
+
+/* main styles */
+.main-image-section {
+    background-image: url(../img/residential-banner-2.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    color: white ; 
+}
+.main-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 30px ; 
+ 
+}
+.main-image-section h1 {
+    margin: 0 ;
+    width: 50% ;
+    align-self: center; 
+    text-align: center;
+    font-weight: 300;
+    font-size: 36px;
+}
+.main-paragraphs {
+    margin: 0 ; 
+    padding-top: 10px;
+    align-self: center; 
+    text-align: center;
+    font-size: 18px  ;
+}
+
+.main-paragraphs p {
+    margin: 0 ; 
+}
+.last-main-paragraph {
+    padding: 10px 0 50px 0 ; 
+}
+
+.how-it-works {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.how-it-works h2 {
+    align-self: center;
+}
+.design-schedule-enjoy {
+    display: flex;
+    justify-content: center;
+    margin: 0 20px ; 
+    padding: 0 20px;
+}
+
+.numbered-articles {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 10px ;
+    width: 30% ;
+    color:  rgb(77, 75, 75) ; 
+}
+.line-and-nums {
+    display: flex;
+    justify-content: center;
+}
+.line-and-nums hr {
+    align-self: center;
+    margin: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 0;
+    border-top: 2px solid rgb(156, 144, 143) ; 
+    width: 20px; 
+}
+.line-and-nums span {
+    padding: 0 8px;
+    color: rgb(77, 75, 75) ; 
+    font-size: 30px ; 
+    font-weight: bold;
+}
+.numbered-articles h3 {
+    margin-top: 10px ; 
+}
+.numbered-articles p {
+    width: 60% ; 
+    margin-top: 0 ; 
+    align-self: center;
+}
+
+/* styles - image section */
+.img-section {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 ; 
+    background-color: #EDEDED;
+}
+
+.img-section img {
+    padding: 5px 10px ; 
+}
+
+/* footer styles */
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: black ; 
+    font-size: 14px;
+    text-align: center;
+    color: rgb(77, 75, 75) ; 
+}
+.main-footer-wrapper {
+    display: flex ; 
+    padding: 20px 0  ;
+}
+.footer-nav-wrapper {
+    display: flex;
+    width: 30% ; 
+    margin: 0 ; 
+}
+
+.footer-nav-wrapper ul {
+    margin-right: 20px ; 
+}
+
+.footer-nav-wrapper ul li {
+    list-style: none ;
+}
+
+.abc-news-wrapper {
+    margin-left: 40px;
+}
+.abc-news {
+    padding-top: 10px ; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px ; 
+    color: white ; 
+}
+
+.abc-news span {
+    border-radius: 50% ; 
+    padding: 3px;
+    background-color: white ; 
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    color: black ; 
+}
+.circles i {
+    margin-top: 20px ; 
+    font-size: 10px ;
+    color: rgb(77, 75, 75) ;  
+}
+
+.subscribe {
+    margin-left: 40px ; 
+}
+
+.email-form  {
+    display: flex;
+    flex-direction: column;
+}
+
+.email-form label {
+    border: none ; 
+    width: 70% ; 
+    padding: 10px 15px ; 
+    margin-bottom: 10px ; 
+    background-color: white ;
+    font-size: 12px ; 
+    font-weight: bold ;
+    text-align: left;
+}
+
+.subscribe-btn {
+    width: 30% ; 
+    border: none ; 
+    outline: none ; 
+    padding: 10px 15px ;
+    color: white ; 
+    background-color: #FA5B3C ; 
+}
+.footer-line {
+    align-self: flex-start;
+    margin: 0 0 0 30px ;  
+    width: 15% ; 
+    border: 1px solid rgba(77, 75, 75, 0.5) ; 
+}
