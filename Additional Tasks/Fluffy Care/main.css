@@ -1,0 +1,166 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+* {
+    margin: 0;
+}
+body {
+    font-family: 'Neucha', cursive;
+}
+/* header styles */
+header {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.logo-wrapper {
+    align-self: center;
+
+}
+.header-logo {
+    padding-top: 10px ;
+    width: 150px;
+    height: 120px;
+}
+.icons-wrapper {
+    display: flex; 
+    flex-direction: column; 
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.icons-wrapper i {
+    font-size: 20px;
+    padding: 4px;
+}
+/* styles for background image and navigation */
+.backgr-img {
+    color: white;
+    height: 60vh;
+    background-color: #82CA9C;
+    background-image: url(./images/background.jpg);
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* padding: 20px 0 40px 0;  */
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    text-decoration: none;
+    list-style: none;
+    padding: 0 10px ;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.heading {
+    /* padding: 20px 10px ;  */
+    text-align: center;
+    font-size: 32px;
+}
+
+/* white info section */
+.info-wrapper {
+    text-align: center;
+    padding-top: 20px ; 
+}
+.info-wrapper h3 {
+    padding-top: 10px ; 
+}
+
+.articles-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px ; 
+}
+
+article {
+    width: 25% ;
+    padding: 0 30px;
+}
+article i {
+    color: #8FD5EA ; 
+    font-size: 50px ;
+    padding-bottom: 10px ; 
+}
+article h5 {
+    font-size: 18px ; 
+    font-weight: bold;
+    padding-bottom: 10px ;
+}
+
+.btn {
+    background-color: #8FD5EA ;
+    color: white;
+    padding: 8px 12px ;
+    margin-top: 10px ; 
+    outline: none ; 
+    border: none;
+}
+
+/* pet's images section */
+.pet-shop-pics  {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap ; 
+}
+
+.pet-shop-pics img {
+    width: 449.5px;
+    height: 270px;
+}
+
+/* footer styles */
+.footer-logo {
+    width: 100px ; 
+    height: 130px;
+}
+.footer-content {
+    background-color: #82CA9C;
+    color: white;
+    padding: 40px 30px;
+}
+.footer-heading {
+    font-size: 26px;
+    font-weight: bold;
+}
+.footer-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav li {
+    font-size: 18px;
+    text-decoration: none;
+    list-style: none;
+    padding: 10px ; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toya Form</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header>
+        <h3>КАК ДА ВИ ПОМОГНЕМ?</h3>
+        <p class="header-text">Попълнете полетата с информация по-долу и ние ще се свържем с Вас директно</p>
+    </header>
+    <div class="contacts">
+        <div class="contact-wrapper">
+            <p class="green">АДРЕС:</p>
+            <p>кв.Подуяне,ул.Гълъбец N28, гр.София</p>
+        </div>
+        <div class="contact-wrapper">
+            <p class="green">РАБОТНО ВРЕМЕ: </p>
+            <p>Понеделник / Събота: 10.30 -19.00 ч.</p>
+        </div>
+        <div class="contact-wrapper">
+            <p class="green">ТЕЛЕФОН ЗА ВРЪЗКА: </p>
+            <p>02/87 34757</p>
+            <p>0887/80 31 87</p>
+        </div>
+        <div class="contact-wrapper">
+            <p class="green">Е-МАIL:</p>
+            <p>to_ja@abv.bg</p>
+        </div>
+    </div>
+
+    <div class="form-container">
+        <div class="map-wrapper">
+            <img src="./images/map.jpg" alt="map">
+            <p>*на 10 минути пеша от <span>Сточна гара</span> (подходящ градски транспорт- <span>автобус 413</span>
+                (Младост 4 - Централна Ж.П.Г)
+            </p>
+        </div>
+        <form>
+            <div class="user-and-mail">
+                <label>
+                    ПОТРЕБИТЕЛСКО ИМЕ
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Потребителско име">
+                </label>
+                <label>
+                    E-MAIL
+                    <input type="email" placeholder="E-mail">
+                    <i class="fas fa-envelope"></i>
+                </label>
+            </div>
+            <div class="pass-fields">
+                <label>
+                    ПАРОЛА
+                    <input type="password">
+                    <i class="fas fa-lock"></i>
+                </label>
+                <label>
+                    ПОТВЪРДИ ПАРОЛА
+                    <input type="password">
+                    <i class="fas fa-lock"></i>
+                </label>
+            </div>
+            <textarea rows="8" cols="52" placeholder="Съобщение*"></textarea>
+            <div class="btn">
+                <button>ИЗПРАТИ</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

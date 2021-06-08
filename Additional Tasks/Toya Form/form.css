@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+@import 'https://use.fontawesome.com/releases/v5.10.2/css/all.css' ; 
+
+* {
+    margin: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #9B9B9B;
+    margin: 50px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    position: relative ; 
+}
+
+.user-and-mail, .pass-fields {
+    display: flex ; 
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 5px ;
+    margin-top: 10px ; 
+}
+
+i {
+    position: absolute;
+    top: 35px ; 
+    left: 160px;
+}
+button {
+    color: white ;
+    background-color: #9ACB34 ; 
+    padding: 8px ;
+    margin-top: 10px ; 
+    outline: none;
+    border: none ; 
+}
